@@ -1,0 +1,150 @@
+html {
+    background-color: rgb(187, 13, 13)
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.text{
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+   font-style: normal;
+}
+.textALL{
+    font-family: "Varela Round", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 400;
+  font-size: large;
+}
+.heading{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font: weight 700px;;
+    font-style: normal;
+    color: rgb(232, 160, 160);
+}
+nav {
+
+    background-color: #5C8374;
+    color: white;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.logo img {
+    height: 50px;
+    width: 50px;
+    padding: 0px 10px;
+    border-radius: 10px;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight:900;
+    font-size: 1.5rem;
+    cursor: auto;
+    color: rgb(250, 247, 247);
+  
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+
+.middlepart {
+    height: 68vh;
+    display: flex;
+    flex-direction: column;
+    color: rgb(195, 15, 15);
+    background-color: wheat;
+    margin: 18px auto;
+    width: 70%;
+    background-image: url(./images/background\ img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgb(139, 108, 108);
+    border-radius: 40px;
+    align-items: center;
+    min-width:400px;
+}
+
+.bottom {
+    background-color: #5C8374;
+    color: white;
+    height: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scrollbar {
+    width: 80%;
+    cursor: pointer;
+}
+
+.bottom i {
+    margin-top: 15px;
+    padding-right: 30px;
+    cursor: pointer;
+}
+
+.songplay {
+    height: 40px;
+    width: 50%;
+    background-color: rgb(212, 217, 215);
+    margin-top: 13px;
+    margin-left: 43%;
+    margin-right: 0px;
+    padding: 0px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(10, 21, 7);
+}
+
+
+.songimg {
+    height: 34px;
+    width: 44px;
+    border-radius: 20px;
+}
+
+    
+input[type="range"] {
+    accent-color: rgb(0, 0, 0);
+    height: 7px;
+    border-radius: 5px;
+  }
+  input[type="range"]::-webkit-slider-thumb {
+    height: 20px;
+    cursor:pointer;
+  }
+  .songtime{
+    margin-left: 10px;
+     cursor: pointer;
+  }
+  .name{
+    margin-left: 70%;
+    margin-right: 0px;
+     font-size: small;
+     font-style: oblique;
+     font-weight: bold;
+  }
